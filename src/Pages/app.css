@@ -1,0 +1,171 @@
+.header {
+  margin-top: 30px;
+}
+
+.title {
+  font: normal normal bold 24px/29px Lato;
+  color:var(--dark)
+}
+
+.cta__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.cta__container > button {
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: black;
+  gap: 0 8px;
+  font: normal normal bold 18px/22px Lato;
+letter-spacing: 0.27px;
+color: #1D1A1A;
+}
+
+.date-range-picker {
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  font-size: 15px;
+  font: normal normal bold 16px/19px Lato;
+letter-spacing: 0px;
+color: #212121;
+opacity: 1;
+
+}
+
+.dimensions_container {
+  margin-top: 22px;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  padding: 18px;
+}
+.dimensions_container > h3 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.dimensions_columns_box {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
+}
+
+.dimension_column {
+  border: 1px solid var(--gray);
+  width: 140px;
+  font-size: 14px;
+  padding: 6px 06px;
+  border-radius: 5px;
+  cursor: pointer;
+  font: normal normal normal 16px/19px Lato;
+letter-spacing: 0.24px;
+color: var(--dark);
+}
+.dimension_column:hover {
+  background-color: var(--gray);
+}
+
+ .active {
+  
+  border-left: 4px solid var(--blue);
+}
+.buttons {
+  display: flex;
+  gap: 0 12px;
+  margin-top: 42px;
+  justify-content: end;
+  
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 7px 8px;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font: normal normal normal 18px/22px Lato;
+letter-spacing: 0.27px;
+
+}
+
+.btn__outlined {
+  border: 1px solid var(--gray);
+  color: var(--blue);
+}
+
+.btn__filled {
+  color: white;
+  background-color: var(--blue);
+  border: none;
+}
+
+.table__container {
+  margin-top: 35px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+  
+}
+.row {
+  border: 1px solid var(--gray);
+  font-size: 16px;
+  padding: 12px 0;
+border-left: 0;
+border-right: 0;
+color:#1D1A1A;
+}
+
+
+th {
+  font: normal normal bold 18px/22px Lato;
+  color: var(--gray-dark);
+}
+
+
+
+td{
+  font: normal normal normal 18px/22px Lato;
+  color:var(--dark);
+  
+}
+
+@media screen and (max-width:700px) {
+  th,tr,td{
+    font-size: 14px;
+  }
+
+}
+
+#funnel-icon{
+
+    display: block;
+    margin-bottom: 12px;
+}
+
+#app_icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
